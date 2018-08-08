@@ -1,17 +1,17 @@
 function missing(array) {
   var i;
-  var all_numbers = [];
-  var missing_numbers = [];
+  var allNumbers = [];
+  var missingNumbers = [];
 
   for (i = array[0]; i <= array[array.length -1]; i++) {
-    all_numbers.push(i);
+    allNumbers.push(i);
   }
-  for (i = 0; i < all_numbers.length; i++) {
-    if (array.indexOf(all_numbers[i]) === -1) {
-      missing_numbers.push(all_numbers[i]);
+  for (i = 0; i < allNumbers.length; i++) {
+    if (array.indexOf(allNumbers[i]) === -1) {
+      missingNumbers.push(allNumbers[i]);
     }
   }
-  console.log(missing_numbers);
+  console.log(missingNumbers);
 }
 
 missing([-3, -2, 1, 5]);                  // [-1, 0, 2, 3, 4]
