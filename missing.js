@@ -14,7 +14,10 @@ function missing(array) {
   console.log(missing_numbers);
 }
 
-missing([-3, -2, 1, 5]);
+missing([-3, -2, 1, 5]);                  // [-1, 0, 2, 3, 4]
+missing([1, 2, 3, 4]);                    // []
+missing([1, 5]);                          // [2, 3, 4]
+missing([6]);                             // []
 
 
 // function missing(array) {
