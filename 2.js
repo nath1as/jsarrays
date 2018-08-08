@@ -21,7 +21,7 @@ myArray.pop();
 console.log(myArray);
 console.log(myOtherArray);
 
-/* copies value  */
+/* copies value 2 */
 var myArray = [1, 2, 3, 4];
 var myOtherArray = myArray.slice();
 
